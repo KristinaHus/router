@@ -38,3 +38,33 @@
 .menu li a.selected {
   color: #910000;
 }
+
+.nav {
+  padding: 15px 0;
+  background: #80808070;
+}
+.nav a {
+  margin: 15px;
+  color: #222222;
+  text-decoration: none;
+  font-weight: 700;
+}
+.main-content {
+  padding: 15px;
+}
+
+.nav .active {
+  color: #057a97;
+}
+
+.contacts-links a {
+  margin: 0 15px;
+}
+.contacts-routes {
+  min-width: 190px;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  background: #e2dab1;
+  padding: 25px;
+}
