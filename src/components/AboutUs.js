@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class AboutUs extends  Component {
   constructor (props) {
     super(props)
-    window.props = this.props
+    window.props = this.props // for testing
     console.log('this.props', this.props)
   }
   render () {
@@ -11,7 +11,6 @@ class AboutUs extends  Component {
       <div>
         <p>About us page</p>
       </div>
-
     )
   }
 }
